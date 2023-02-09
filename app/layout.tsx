@@ -19,7 +19,7 @@ export default function RootLayout({
             <Link href="/products/2">products2</Link>
             <Link href="/about/">about</Link>
             <Link href="/counter/">counter</Link>
-            <Link href="/course/">course</Link>
+            <Link href="/posts/">posts</Link>
         </div>
 
         <div className="pt-20">
