@@ -27,7 +27,7 @@ export default async function entries() {
     return (
         <div>
         <ul>
-            {data.entries.map((entry,index) => <li>({index+1}) <a href={entry.Link}>{entry.Description}</a></li>)}
+            {data.entries.map((entry: any,index: any) => <li key={index}>({index+1}) <a href={entry.Link}>{entry.Description}</a></li>)}
         </ul>
         </div>
     )
