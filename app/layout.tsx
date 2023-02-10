@@ -14,12 +14,12 @@ export default function RootLayout({
       */}
         <head/>
         <body>
-        <div className="border py-3 px-3 flex flex-row space-x-4 fixed top-5 pl-5">
+        <div className="border py-3 px-3 flex flex-row space-x-4 fixed top-5 pl-5 bg-gray-400">
             <Link href="/products/1">products1</Link>
             <Link href="/products/2">products2</Link>
             <Link href="/about/">about</Link>
             <Link href="/counter/">counter</Link>
-            <Link href="/posts/">posts</Link>
+            <Link href="/entries/">entries</Link>
         </div>
 
         <div className="pt-20">
